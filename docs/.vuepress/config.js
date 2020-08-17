@@ -3,7 +3,7 @@ module.exports = {
   description: '自学 读书 技术学习 生活记录', // 描述
   lange: 'zh-CN', // 语言
   // dest: 'docs',
-  base: '/blog/',
+  base: '/gh-pages/',
   theme: require.resolve('./theme/'), // 使用自定义主题
   markdown: { // markdown 配置
     lineNumbers: true
