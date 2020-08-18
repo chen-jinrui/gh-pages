@@ -1,14 +1,18 @@
 module.exports = {
-  title: "chen's blog",
+  title: "chen",
   description: '自学 读书 技术学习 生活记录', // 描述
   lange: 'zh-CN', // 语言
   // dest: 'docs',
-  base: '/gh-pages/',
+  base: '/',
   theme: require.resolve('./theme/'), // 使用自定义主题
   markdown: { // markdown 配置
     lineNumbers: true
   },
   themeConfig: {
+    // 默认值是 true 。设置为 false 来禁用所有页面的 下一篇 链接
+    nextLinks: true,
+    // 默认值是 true 。设置为 false 来禁用所有页面的 上一篇 链接
+    prevLinks: true,
     dateFormat: 'YYYY-MM-DD',
     nav: [
       {
@@ -26,6 +30,10 @@ module.exports = {
       {
         text: '阅读',
         link: '/reading/'
+      },
+      {
+        text: 'JavaScript',
+        link: '/javascript/'
       }
     ],
     sidebar: {
@@ -66,6 +74,15 @@ module.exports = {
           lengthPerPage: 20,
         },
       },
+      {
+        id: 'javascript',
+        dirname: 'javascript',
+        path: '/javascript/',
+        itemPermalink: '/javascript/:year/:month/:day/:slug',
+        pagination: {
+          lengthPerPage: 20,
+        },
+      },
     ],
     footer: { // 页脚
       contact: [
@@ -90,7 +107,7 @@ module.exports = {
     require('./plugin.js'),
     'cat',
     ['sitemap', {
-      hostname: 'https://richlab.design/',
+      hostname: 'https://chen-jinrui.github.io/',
     }],
   ]
 }
