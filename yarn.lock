@@ -1276,7 +1276,7 @@
   dependencies:
     lodash.debounce "^4.0.8"
 
-"@vuepress/plugin-back-to-top@^1.4.0":
+"@vuepress/plugin-back-to-top@^1.5.3":
   version "1.5.3"
   resolved "https://registry.npm.taobao.org/@vuepress/plugin-back-to-top/download/@vuepress/plugin-back-to-top-1.5.3.tgz#bb33f86c6c6283159d260ba7feb5ee2d1e008c5d"
   integrity sha1-uzP4bGxigxWdJgun/rXuLR4AjF0=
@@ -1297,7 +1297,7 @@
     vuepress-plugin-mailchimp "^1.4.1"
     vuepress-plugin-sitemap "^2.3.1"
 
-"@vuepress/plugin-last-updated@1.5.3":
+"@vuepress/plugin-last-updated@1.5.3", "@vuepress/plugin-last-updated@^1.5.3":
   version "1.5.3"
   resolved "https://registry.npm.taobao.org/@vuepress/plugin-last-updated/download/@vuepress/plugin-last-updated-1.5.3.tgz#1f2dcc653d3b829d65094433395f9a92642eb301"
   integrity sha1-Hy3MZT07gp1lCUQzOV+akmQuswE=
@@ -1310,6 +1310,13 @@
   integrity sha1-bc5hUGCHB/xE5gt8nUoNJ+ST8rU=
   dependencies:
     medium-zoom "^0.4.0"
+
+"@vuepress/plugin-medium-zoom@^1.5.3":
+  version "1.5.3"
+  resolved "https://registry.npm.taobao.org/@vuepress/plugin-medium-zoom/download/@vuepress/plugin-medium-zoom-1.5.3.tgz#e5889b02b5a64802c4d018fb1e28a5cb59be22bb"
+  integrity sha1-5YibArWmSALE0Bj7Hiily1m+Irs=
+  dependencies:
+    medium-zoom "^1.0.4"
 
 "@vuepress/plugin-nprogress@1.0.0":
   version "1.0.0"
@@ -1324,6 +1331,11 @@
   integrity sha1-AcaZc57P6UVpmG/4OGZdyzDmywU=
   dependencies:
     nprogress "^0.2.0"
+
+"@vuepress/plugin-pagination@^1.0.0-alpha.0":
+  version "1.0.0-alpha.0"
+  resolved "https://registry.npm.taobao.org/@vuepress/plugin-pagination/download/@vuepress/plugin-pagination-1.0.0-alpha.0.tgz#96f6e402a1147b34c2feaa930d913be5295e29c6"
+  integrity sha1-lvbkAqEUezTC/qqTDZE75SleKcY=
 
 "@vuepress/plugin-pwa@1.0.0":
   version "1.0.0"
@@ -1367,7 +1379,7 @@
     toml "^3.0.0"
     upath "^1.1.0"
 
-"@vuepress/theme-blog@^2.2.0":
+"@vuepress/theme-blog@^2.3.1":
   version "2.3.1"
   resolved "https://registry.npm.taobao.org/@vuepress/theme-blog/download/@vuepress/theme-blog-2.3.1.tgz#ca1ba053ba30bfdd2344d668170c481adb6dead6"
   integrity sha1-yhugU7owv90jRNZoFwxIGttt6tY=
@@ -3345,7 +3357,7 @@ debug@^4.1.0, debug@^4.1.1:
   dependencies:
     ms "^2.1.1"
 
-debuglog@*, debuglog@^1.0.1:
+debuglog@^1.0.1:
   version "1.0.1"
   resolved "https://registry.npm.taobao.org/debuglog/download/debuglog-1.0.1.tgz#aa24ffb9ac3df9a2351837cfb2d279360cd78492"
   integrity sha1-qiT/uaw9+aI1GDfPstJ5NgzXhJI=
@@ -5076,7 +5088,7 @@ import-local@^2.0.0:
     pkg-dir "^3.0.0"
     resolve-cwd "^2.0.0"
 
-imurmurhash@*, imurmurhash@^0.1.4:
+imurmurhash@^0.1.4:
   version "0.1.4"
   resolved "https://registry.npm.taobao.org/imurmurhash/download/imurmurhash-0.1.4.tgz#9218b9b2b928a238b13dc4fb6b6d576f231453ea"
   integrity sha1-khi5srkoojixPcT7a21XbyMUU+o=
@@ -6030,11 +6042,6 @@ lockfile@^1.0.4:
   dependencies:
     signal-exit "^3.0.2"
 
-lodash._baseindexof@*:
-  version "3.1.0"
-  resolved "https://registry.npm.taobao.org/lodash._baseindexof/download/lodash._baseindexof-3.1.0.tgz#fe52b53a1c6761e42618d654e4a25789ed61822c"
-  integrity sha1-/lK1OhxnYeQmGNZU5KJXie1hgiw=
-
 lodash._baseuniq@~4.6.0:
   version "4.6.0"
   resolved "https://registry.npm.taobao.org/lodash._baseuniq/download/lodash._baseuniq-4.6.0.tgz#0ebb44e456814af7905c6212fa2c9b2d51b841e8"
@@ -6043,32 +6050,10 @@ lodash._baseuniq@~4.6.0:
     lodash._createset "~4.0.0"
     lodash._root "~3.0.0"
 
-lodash._bindcallback@*:
-  version "3.0.1"
-  resolved "https://registry.npm.taobao.org/lodash._bindcallback/download/lodash._bindcallback-3.0.1.tgz#e531c27644cf8b57a99e17ed95b35c748789392e"
-  integrity sha1-5THCdkTPi1epnhftlbNcdIeJOS4=
-
-lodash._cacheindexof@*:
-  version "3.0.2"
-  resolved "https://registry.npm.taobao.org/lodash._cacheindexof/download/lodash._cacheindexof-3.0.2.tgz#3dc69ac82498d2ee5e3ce56091bafd2adc7bde92"
-  integrity sha1-PcaayCSY0u5ePOVgkbr9Ktx73pI=
-
-lodash._createcache@*:
-  version "3.1.2"
-  resolved "https://registry.npm.taobao.org/lodash._createcache/download/lodash._createcache-3.1.2.tgz#56d6a064017625e79ebca6b8018e17440bdcf093"
-  integrity sha1-VtagZAF2JeeevKa4AY4XRAvc8JM=
-  dependencies:
-    lodash._getnative "^3.0.0"
-
 lodash._createset@~4.0.0:
   version "4.0.3"
   resolved "https://registry.npm.taobao.org/lodash._createset/download/lodash._createset-4.0.3.tgz#0f4659fbb09d75194fa9e2b88a6644d363c9fe26"
   integrity sha1-D0ZZ+7CddRlPqeK4imZE02PJ/iY=
-
-lodash._getnative@*, lodash._getnative@^3.0.0:
-  version "3.9.1"
-  resolved "https://registry.npm.taobao.org/lodash._getnative/download/lodash._getnative-3.9.1.tgz#570bc7dede46d61cdcde687d65d3eecbaa3aaff5"
-  integrity sha1-VwvH3t5G1hzc3mh9ZdPuy6o6r/U=
 
 lodash._reinterpolate@^3.0.0:
   version "3.0.0"
@@ -6119,11 +6104,6 @@ lodash.padstart@^4.6.1:
   version "4.6.1"
   resolved "https://registry.npm.taobao.org/lodash.padstart/download/lodash.padstart-4.6.1.tgz#d2e3eebff0d9d39ad50f5cbd1b52a7bce6bb611b"
   integrity sha1-0uPuv/DZ05rVD1y9G1KnvOa7YRs=
-
-lodash.restparam@*:
-  version "3.6.1"
-  resolved "https://registry.npm.taobao.org/lodash.restparam/download/lodash.restparam-3.6.1.tgz#936a4e309ef330a7645ed4145986c85ae5b20805"
-  integrity sha1-k2pOMJ7zMKdkXtQUWYbIWuWyCAU=
 
 lodash.sortby@^4.7.0:
   version "4.7.0"
@@ -6363,6 +6343,11 @@ medium-zoom@^0.4.0:
   version "0.4.0"
   resolved "https://registry.npm.taobao.org/medium-zoom/download/medium-zoom-0.4.0.tgz#8e13c9b754903c0c903220611af0d3cd373a4222"
   integrity sha1-jhPJt1SQPAyQMiBhGvDTzTc6QiI=
+
+medium-zoom@^1.0.4:
+  version "1.0.6"
+  resolved "https://registry.npm.taobao.org/medium-zoom/download/medium-zoom-1.0.6.tgz#9247f21ca9313d8bbe9420aca153a410df08d027"
+  integrity sha1-kkfyHKkxPYu+lCCsoVOkEN8I0Cc=
 
 mem@^1.1.0:
   version "1.1.0"

@@ -4,7 +4,7 @@ module.exports = {
   lange: 'zh-CN', // 语言
   // dest: 'docs',
   base: '/',
-  theme: require.resolve('./theme/'), // 使用自定义主题
+  // theme: require.resolve('./theme/'), // 使用自定义主题
   markdown: { // markdown 配置
     lineNumbers: true
   },
@@ -106,6 +106,9 @@ module.exports = {
   plugins: [
     require('./plugin.js'),
     'cat',
+    '@vuepress/back-to-top',
+    '@vuepress/last-updated',
+    // '@vuepress/blog',
     ['sitemap', {
       hostname: 'https://chen-jinrui.github.io/',
     }],
